@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Book } from "lucide-react"
 import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button" 
+import styles from "./page.module.css";
 
 export default function KnowItAll() {
   const [question, setQuestion] = useState("")
@@ -32,12 +32,11 @@ export default function KnowItAll() {
   }
 
   return (
-    <div className="min-h-screen bg-[#fff9e6] flex flex-col items-center px-4 py-8">
-      <h1 className="text-[#ff4500] text-4xl md:text-5xl font-serif mb-8">The Know-it-all</h1>
+    <div className="min-h-screen bg-[#FFF9E2] flex flex-col justify-center items-center px-4 py-8">
+      <h1 className="text-[#ff4500] text-4xl md:text-5xl mb-8 header-font" style={{fontFamily: 'Pacifico'}}>
+        The Know-it-all
+      </h1>
 
-      <div className="text-[#ff4500] mb-8">
-        <Book size={64} />
-      </div>
 
       <p className="text-center mb-4">{greeting}</p>
 
