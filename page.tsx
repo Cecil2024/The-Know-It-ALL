@@ -3,6 +3,8 @@
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button" 
+import Lottie  from 'lottie-react';
+import animationData from './components/animation.json'; 
 import styles from "./page.module.css";
 
 export default function KnowItAll() {
@@ -37,6 +39,9 @@ export default function KnowItAll() {
         The Know-it-all
       </h1>
 
+      <div className={styles.icon}>
+      <Lottie animationData={animationData} loop={true} />
+      </div>
 
       <p className="text-center mb-4">{greeting}</p>
 
