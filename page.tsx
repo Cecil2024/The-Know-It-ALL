@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button" 
 import Lottie  from 'lottie-react';
-import animationData from './components/animation.json'; 
+import animationData from './components/animations/book.json'; 
 import styles from "./page.module.css";
 
 export default function KnowItAll() {
