@@ -35,10 +35,18 @@ export default function KnowItAll() {
 
   return (
     <div className="min-h-screen bg-[#FFF9E2] flex flex-col justify-center items-center px-4 py-8">
-      <h1 className="text-[#ff4500] text-4xl md:text-5xl mb-8 header-font" style={{fontFamily: 'Pacifico'}}>
+      <h1 className="text-[#ff4500] text-4xl md:text-5xl mb-2 header-font" style={{fontFamily: 'Pacifico'}}>
         The Know-it-all
       </h1>
       
+      <div className="w-full max-w-md mx-auto flex flex-col justify-center items-center">
+        <img 
+          src="/book animated.gif" 
+          alt="Book animated" 
+          width={150} 
+          height={150} 
+        />
+      </div>
 
       {/* <div className={styles.icon}>
       <Lottie animationData={animationData} loop={true} />
