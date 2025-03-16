@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button" 
-import { LottiePlayer } from "@/components/lottie-player"
 //import Lottie  from 'lottie-react';
 //import animationData from './components/animations/book.json'; 
 import styles from "./page.module.css";
@@ -40,9 +39,6 @@ export default function KnowItAll() {
         The Know-it-all
       </h1>
       
-      <div className="w-full max-w-md mx-auto">
-      <LottiePlayer src="https://assets5.lottiefiles.com/packages/lf20_UJNc2t.json" height={300} width="100%" />
-      </div>
 
       {/* <div className={styles.icon}>
       <Lottie animationData={animationData} loop={true} />
